@@ -104,9 +104,9 @@ body {
     width: 550px;
     text-align: center;
     border: 2px inset white;
-    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
-    padding:5px 0 5px 0;
-    margin:20px 0 10px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
+    padding: 5px 0 5px 0;
+    margin: 20px 0 10px 0;
 }
 
 .container .child-1 h3 {
@@ -147,46 +147,51 @@ body {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
 }
+
 .modal-book,
 .modal-book1,
-.modal-book2    {
+.modal-book2 {
     text-align: center;
 }
+
 .modal-book h3,
 .modal-book1 h3,
-.modal-book2 h3{
-    font-size:2rem;
-    margin:0 0 10px 0;
+.modal-book2 h3 {
+    font-size: 3rem;
+    margin: 0 0 10px 0;
 }
+
 .modal-book input[type=text],
 .modal-book input[type=email],
 .modal-book input[type=tel],
 .modal-book input[type=date],
 .modal-book1 input[type=tel],
-.modal-book2 textarea
-{
-    width:90%;
-    margin:0 0 20px 0;
-    padding:0 0 20px 0;
-    font-size:1.5rem;
+.modal-book2 textarea {
+    width: 90%;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    font-size: 1.5rem;
 }
+
 .modal-book input[type=submit],
 .modal-book1 input[type=submit],
-.modal-book2 input[type=submit]{
-    width:20%;
-    border-radius:30px;
-    padding:15px;
+.modal-book2 input[type=submit] {
+    width: 20%;
+    border-radius: 30px;
+    padding: 15px;
 }
+
 .modal-book input[type=submit]:hover,
 .modal-book1 input[type=submit]:hover,
-.modal-book2 input[type=submit]:hover{
-    background-color:orange;
+.modal-book2 input[type=submit]:hover {
+    background-color: orange;
     cursor: pointer;
 }
+
 .modal,
 .modal1,
 .modal2 {
-    background-color:#f3d4d4;
+    background-color: #f3d4d4;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
@@ -195,7 +200,7 @@ body {
 
 #times,
 #times1,
-#time{
+#time {
     color: #aaaaaa;
     float: right;
     margin: -10px 0 0 0;
@@ -208,94 +213,121 @@ body {
 #times1:hover,
 #times1:focus,
 #time:hover,
-#time:focus{
+#time:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
-.content-ai{
+
+.content-ai {
     height: auto;
-    background-color:#d1d1d1;
+    background-color: #d1d1d1;
     padding: 10px 10px 20px 10px;
 }
-.content-ai h2{
-    text-align:center;
-    text-decoration:overline;
+
+.content-ai h2 {
+    text-align: center;
+    text-decoration: overline;
 }
-.ai-container{
+
+.ai-container {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: baseline;
     flex-wrap: wrap;
 }
+
 .ai-child {
-    width:400px;
-    padding:10px;
-    margin:20px 0 20px 0;
+    width: 400px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
     border-radius: 20px;
     background: #d1d1d1;
-    box-shadow:  14px 14px 28px #b0b0b0,
-                 -14px -14px 28px #f2f2f2;
+    box-shadow: 14px 14px 28px #b0b0b0,
+        -14px -14px 28px #f2f2f2;
     border-radius: 20px;
 }
-.ai-child p{
-    text-align:justify;
+
+.ai-child p {
+    text-align: justify;
 }
-.ai-child img{
-    width:100%;
-    height:auto;
-    opacity:0.7;
-    border-radius:20px;
+
+.ai-child img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    border-radius: 20px;
 }
-.fcontainer{
+
+.fcontainer {
     display: flex;
-    justify-content:space-around;
-    align-items:center;
-    flex-wrap:wrap;
-    background-color:black;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
 }
-.fchild{
-    width:300px;
-    color:white;
-    text-align:center;
-    margin:10px 0 0 0;
+
+.fchild {
+    width: 300px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 0;
 }
-.fchild h2{
-    font-size:2rem;
+
+.fchild h2 {
+    font-size: 2rem;
 }
-.fchild a{
-    font-size:2rem;
-    color:white;
-    border-radius:10px;
+
+.fchild a {
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
 }
-.fchild p{
-    font-size:2rem;
+
+.fchild p {
+    font-size: 2rem;
 }
-.fchild a:hover{
-    background-color:greenyellow;
-    color:black;
+
+.fchild a:hover {
+    background-color: greenyellow;
+    color: black;
 }
-.fchild img{
-    width:35%;
-    height:auto;
+
+.fchild img {
+    width: 35%;
+    height: auto;
 }
 
 /* media-query */
-/* tablet */
 @media screen and (max-width:768px) {
     .logo-gs {
         width: 13%;
     }
+
     .container .child-1 h3,
     .container .child h3,
-    .container .child-1 button{
+    .container .child button {
+        font-size: 1rem;
+    }
+
+    .modal-book,
+    .modal-book1,
+    .modal-book2 {
+        padding: 130px 0 0 0;
+    }
+
+    .modal-book input[type=submit],
+    .modal-book1 input[type=submit],
+    .modal-book2 input[type=submit] {
+        width: 60%;
+        margin: 0;
+    }
+    .modal-book h3,
+    .modal-book1 h3,
+    .modal-book2 h3{
         font-size:1rem;
     }
-    .modal-book,
-.modal-book1,
-.modal-book2{
-    padding:300px 0 0 0;
-}
+    
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -314,7 +346,7 @@ body {
     .navbar-links ul {
         margin: 0;
         width: 100%;
-        font-size:1rem;
+        font-size: 1rem;
         flex-direction: column;
     }
 
@@ -329,7 +361,8 @@ body {
     .navbar-links.active {
         display: flex;
     }
-    .fchild{
-        width:250px;
+
+    .fchild {
+        width: 250px;
     }
 }
